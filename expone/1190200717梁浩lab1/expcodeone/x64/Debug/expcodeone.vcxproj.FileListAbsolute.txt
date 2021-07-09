@@ -1,0 +1,2 @@
+D:\xuexi\jisuanjixitong\expone\codeone\expcodeone\x64\Debug\expcodeone.exe
+D:\xuexi\jisuanjixitong\expone\codeone\expcodeone\x64\Debug\expcodeone.pdb

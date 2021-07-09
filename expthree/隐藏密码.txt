@@ -1,0 +1,23 @@
+//初始调用fun7函数的两个参数%edi = 0x4050f0
+//%esi = 某个int类型的数
+fun7(rdi,rsi){
+	if(rdi=0){
+		return 0xffffffff;
+	}
+	eax = Memory(rdi);//将rdi的值作为地址，取地址里的内容
+	if(eax>esi){
+		rdi = Memory(rdi+0x8);
+		eax = fun7(rdi,rsi);
+		eax = eax + eax;
+		return eax;
+	}
+	if(eax<esi){
+		rdi = Memory(rdi+0x10);
+		eax = fun7(rdi,rsi);
+		eax = 2*rax + 0x1;
+		return eax;
+	}
+	if(eax=esi){
+		return 0;
+	}
+}

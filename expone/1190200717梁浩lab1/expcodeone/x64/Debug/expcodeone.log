@@ -1,0 +1,14 @@
+﻿  datatype.c
+D:\xuexi\jisuanjixitong\expone\codeone\expcodeone\datatype.c(33,23): warning C4133: “函数”: 从“short *”到“byte_pointer”的类型不兼容
+D:\xuexi\jisuanjixitong\expone\codeone\expcodeone\datatype.c(41,21): warning C4133: “函数”: 从“int *”到“byte_pointer”的类型不兼容
+D:\xuexi\jisuanjixitong\expone\codeone\expcodeone\datatype.c(45,22): warning C4133: “函数”: 从“long *”到“byte_pointer”的类型不兼容
+D:\xuexi\jisuanjixitong\expone\codeone\expcodeone\datatype.c(49,19): warning C4133: “函数”: 从“float *”到“byte_pointer”的类型不兼容
+D:\xuexi\jisuanjixitong\expone\codeone\expcodeone\datatype.c(53,19): warning C4133: “函数”: 从“double *”到“byte_pointer”的类型不兼容
+D:\xuexi\jisuanjixitong\expone\codeone\expcodeone\datatype.c(57,24): warning C4047: “函数”:“byte_pointer”与“char **”的间接级别不同
+D:\xuexi\jisuanjixitong\expone\codeone\expcodeone\datatype.c(57,24): warning C4024: “show_bytes”: 形参和实参 1 的类型不同
+D:\xuexi\jisuanjixitong\expone\codeone\expcodeone\datatype.c(64,25): warning C4133: “函数”: 从“int *”到“byte_pointer”的类型不兼容
+D:\xuexi\jisuanjixitong\expone\codeone\expcodeone\datatype.c(71,27): warning C4133: “函数”: 从“int *”到“byte_pointer”的类型不兼容
+D:\xuexi\jisuanjixitong\expone\codeone\expcodeone\datatype.c(79,17): warning C4133: “函数”: 从“DAY *”到“byte_pointer”的类型不兼容
+D:\xuexi\jisuanjixitong\expone\codeone\expcodeone\datatype.c(83,17): warning C4133: “函数”: 从“DAY *”到“byte_pointer”的类型不兼容
+D:\xuexi\jisuanjixitong\expone\codeone\expcodeone\datatype.c(87,17): warning C4133: “函数”: 从“DAY *”到“byte_pointer”的类型不兼容
+  expcodeone.vcxproj -> D:\xuexi\jisuanjixitong\expone\codeone\expcodeone\x64\Debug\expcodeone.exe

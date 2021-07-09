@@ -1,0 +1,72 @@
+#include <stdio.h>
+static int rax = 0;
+int func4(int rdi,int rsi,int rdx);
+int main(){
+    int res = func4(13,0,14);
+    printf("%d\n",res);
+}
+int func4(int rdi,int rsi,int rdx){
+
+	int rbx = (rsi + rdx)/2;
+	if( rdi < rbx ){//小
+		rdx = rbx - 1;
+		rax = func4(rdi,rsi,rbx - 1);
+		rbx = rbx + rax;
+		return rbx;
+	}else if( rdi > rbx ){//大
+		rsi = rbx + 1;
+		rax = func4(rdi,rbx + 1,rdx);
+		rbx = rbx + rax;
+		return rbx;
+	}else{
+		return rbx;
+	}
+}
+
+
+//最开始edi=5,esi = a[0]
+fun4(edi,esi){
+	if(edi==0){
+		return 0;
+	}
+	r12d = edi;
+	ebx = esi;
+	if(edi==1){
+		eax = esi;
+		return eax;
+	}
+	edi = edi - 1;
+	eax = fun4(edi,esi);
+	r13 = eax + rbx;
+	edi = r12d - 2;
+	esi = ebx;
+	eax = fun4(edi,esi);
+	eax = eax + r13d;
+	return eax;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
